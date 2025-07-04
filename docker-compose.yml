@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  app:
+    image: yt-downloader:v0.1
+    container_name: yt-downloader
+    volumes:
+      - ./:/home/yt-downloader/
+    environment:
+      - TOKEN=$CAVIN
+    restart: unless-stopped
