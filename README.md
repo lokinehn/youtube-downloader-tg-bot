@@ -9,8 +9,10 @@ This is simple telegram bot (written on Python with aiogram lib) that provides d
 # Installation
 First clone repository to directory with installed yt-dlp binary.
 Then build Docker Images with command:
+
 `docker build . -t yt-downloader:v0.1`
 
 You need to add your bot token to BOT_TOKEN environment variable.
 Then just run bot with command:
+
 `docker compose up -d`
